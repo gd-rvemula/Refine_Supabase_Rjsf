@@ -1,3 +1,2 @@
 #!/bin/bash
-
-cp  .env.supbaseClient src/utility/supabaseClient.ts
+cp  src/utility/supabaseSampleClient.ts src/utility/supabaseClient.ts
