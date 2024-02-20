@@ -1,0 +1,56 @@
+{
+    "title": "Partner Details",
+    "description": "Enter Partner Data",
+    "type": "object",
+    "required": [
+      "name",
+      "partnerCode"
+    ],
+    "properties": {
+
+      "name": {
+        "minLength": 1,
+        "maxLength": 50,
+        "type": "string",
+        "title": "Name",
+        "default": "default name" 
+      },
+      "partnerCode": {
+        "minLength": 1,
+        "maxLength": 50,
+        "type": "string",
+        "title": "Partner Code",
+        "default": "default partner code"
+      },
+     
+      "partnerIdentifier": {
+        
+        "maxLength": 20,
+        "type": "string",
+        "title": "Partner Identifier",
+        "default": "default partner identifier"
+      },
+     
+
+      "ChangeDate": {
+        "type": "string",
+        "title": "Laste Change Date",
+        "readOnly": true
+      },
+      "CreateDate": {
+        "type": "string",
+        "title": "Last Create Date",
+        "readOnly": true
+      },
+      "ChangeBy": {
+        "type": "string",
+        "title": "Last updated by",
+        "readOnly": true
+      },
+      "IsActive": {
+        "type": "boolean",
+        "title": "Partner Is Active",
+        "default": false
+      }
+    }
+  }

@@ -1,0 +1,182 @@
+{
+  "customer": [
+    {
+      "name": "customer 1",
+      "id": 1,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "22346",
+      "country": "US"
+    },
+    {
+      "name": "customer 2",
+      "id": 2,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 3",
+      "id": 3,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 4",
+      "id": 4,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 5",
+      "id": 5,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 6",
+      "id": 6,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 7",
+      "id": 7,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 8",
+      "id": 8,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 9",
+      "id": 9,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "customer 10",
+      "id": 10,
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "country": "USA"
+    },
+    {
+      "name": "Customer11",
+      "phone": "123-456",
+      "address": "123 main st",
+      "city": "anytown",
+      "state": "FL",
+      "zip": "09876",
+      "country": "UK",
+      "id": 11
+    }
+  ],
+  "customerSchema": [
+    {
+      "id": 1,
+      "title": "customer Details",
+      "description": "Enter customer Data",
+      "type": "object",
+      "required": [
+        "name",
+        "phone",
+        "address",
+        "city",
+        "state",
+        "zip",
+        "country"
+      ],
+      "properties": {
+        "name": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "Name",
+          "default": "default name"
+        },
+        "phone": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "Phone",
+          "default": "default phone"
+        },
+        "address": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "Address",
+          "default": "default address"
+        },
+        "city": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "City",
+          "default": "default city"
+        },
+        "state": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "State",
+          "default": "default state"
+        },
+        "zip": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "Zip",
+          "default": "default zip"
+        },
+        "country": {
+          "minLength": 1,
+          "maxLength": 50,
+          "type": "string",
+          "title": "Country",
+          "default": "default country"
+        }
+      }
+    }
+  ]
+}
